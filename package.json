@@ -1,14 +1,9 @@
 {
   "name": "traceint",
   "version": "1.0.0",
-  "description": "A modern supply chain management and tracking solution built with blockchain technology",
-  "author": "Himanshu Sugha",
+  "description": "A modern supply chain management solution",
   "license": "MIT",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ary433/traceint.git"
-  },
   "workspaces": {
     "packages": [
       "apps/*",
