@@ -1,4 +1,6 @@
+// Main page component for the web application
 'use client'
+import React from 'react';
 import { useState, useRef, useEffect } from 'react'
 import { CustomDonutChart } from '@recycle-chain/ui/src/components/organisms/CustomDonutChart'
 import { UserInfo } from '@recycle-chain/ui/src/components/organisms/UserInfo'
