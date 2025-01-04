@@ -1,6 +1,4 @@
-// Main page component for the Traceint web application
 'use client'
-import React from 'react';
 import { useState, useRef, useEffect } from 'react'
 import { CustomDonutChart } from '@recycle-chain/ui/src/components/organisms/CustomDonutChart'
 import { UserInfo } from '@recycle-chain/ui/src/components/organisms/UserInfo'
@@ -62,7 +60,11 @@ export default function Home() {
 
         {/* Title with animated gradient */}
         <h1 className="font-extrabold text-3xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tight leading-tight mb-4">
-          Welcome to Traceint
+          Where is our{' '}
+          <span className="bg-gradient-to-tr text-red-500 from-pink-500 to-red-500 bg-clip-text animate-pulse">
+            waste?
+          </span>{' '}
+          Let’s find out...
         </h1>
 
         {/* Button Links */}

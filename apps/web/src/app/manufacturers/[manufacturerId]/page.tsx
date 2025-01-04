@@ -1,6 +1,5 @@
-// Page component for a specific manufacturer
 'use client'
-import { AllProducts } from '@traceint/ui/src/components/templates/AllProducts'
+import { AllProducts } from '@recycle-chain/ui/src/components/templates/AllProducts'
 
 export default function Page({
   params,
