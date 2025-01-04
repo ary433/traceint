@@ -8,6 +8,7 @@
     <a href="#getting-started">Getting Started</a> •
     <a href="#architecture">Architecture</a> •
     <a href="#documentation">Documentation</a> •
+    <a href="#api">API</a> •
     <a href="#contributing">Contributing</a>
   </p>
 </div>
@@ -88,6 +89,22 @@ yarn dev
 - [Smart Contract Specs](docs/contracts.md)
 - [Development Guide](docs/development.md)
 - [Deployment Guide](docs/deployment.md)
+
+## 📡 API
+
+The Traceint API provides endpoints for managing supply chain data. It supports both GraphQL and RESTful interfaces, allowing for flexible data retrieval and manipulation.
+
+### Endpoints
+- **GraphQL**: `/graphql`
+- **REST**: `/api`
+
+### Authentication
+All requests to the API require authentication via JWT tokens.
+
+### Example Request
+```bash
+curl -X GET 'http://localhost:3000/api/products' -H 'Authorization: Bearer <token>'
+```
 
 ## 🤝 Contributing
 
