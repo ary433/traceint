@@ -1,22 +1,25 @@
-# RecycleChain Workshop
+# ♻️ Waste Track Chain Workshop  
 
-This repository houses the RecycleChain Workshop project, a monorepo that integrates multiple applications, libraries, and Solidity smart contracts. Follow this guide to set up the project locally and run the applications.
+This repository houses the **Waste Track Chain Workshop** project, a monorepo integrating multiple applications, libraries, and Solidity smart contracts. Follow this guide to set up the project locally and run the applications.  
 
-## Monorepo Contents
+---
 
-- Simple Counter Smart Contract (Solidity): A basic smart contract to demonstrate counter functionality.
-- Recycle Chain Smart Contract (Solidity): The core smart contract for the RecycleChain application.
-- React Native Application: A mobile app built with React Native.
-- Next.js Frontend: A web application frontend developed with Next.js.
-- NestJS Backend: A comprehensive backend featuring:
-  - GraphQL API
-  - REST API with Swagger documentation
-  - Smart Contract Event Listeners
-- Libraries: Supporting libraries for various functionalities:
-  - Forms
-  - Network
-  - UI components
+## 🗂️ Monorepo Contents  
 
+- **Simple Counter Smart Contract (Solidity)**: A basic smart contract to demonstrate counter functionality.  
+- **Waste Track Chain Smart Contract (Solidity)**: The core smart contract for the Waste Track Chain application.  
+- **React Native Application**: A mobile app built with React Native.  
+- **Next.js Frontend**: A web application frontend developed with Next.js.  
+- **NestJS Backend**: A comprehensive backend featuring:  
+  - GraphQL API  
+  - REST API with Swagger documentation  
+  - Smart Contract Event Listeners  
+- **Libraries**: Supporting libraries for various functionalities:  
+  - Forms  
+  - Network  
+  - UI components  
+
+---
 ## Getting Started
 
 ### 1. Clone the Repository
@@ -24,7 +27,7 @@ This repository houses the RecycleChain Workshop project, a monorepo that integr
 Clone the repository to your local machine using Git.
 
 ```bash
-git clone
+git clone https://github.com/ary433/traceint
 cd waste-track-chain
 ```
 
